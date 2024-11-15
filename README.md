@@ -70,5 +70,9 @@ customReceiveComplete(const uint8_t *cmd, uint8_t cmdLen, const uint8_t *data, u
 ```C
 uint8_t parseFrame(ParserHandle *parserHandle, const uint8_t *frameData, const size_t frameLen)
 ```
-
+<br>
+<span style="font-size:20px;">注:</span>  
+<span style="font-size:16px;">
+目前校验没有示例,所以校验位不做判断,随便填什么都可以,有机会我会添加个默认的校验方式,后续也会在添加几个在keil或者Clion或者VScode的测试工程
+</span>
 
